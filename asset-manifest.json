@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-pocket-notes-app/static/css/main.f855e6bc.css",
+    "main.js": "/react-pocket-notes-app/static/js/main.e3c0dcbc.js",
+    "index.html": "/react-pocket-notes-app/index.html",
+    "main.f855e6bc.css.map": "/react-pocket-notes-app/static/css/main.f855e6bc.css.map",
+    "main.e3c0dcbc.js.map": "/react-pocket-notes-app/static/js/main.e3c0dcbc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.e3c0dcbc.js"
+  ]
+}
