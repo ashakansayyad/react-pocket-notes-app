@@ -1,0 +1,152 @@
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.container,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+.modalContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  width: 500px;
+  border-radius: 6px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.modalContent h2 {
+  font-weight: 700;
+}
+.userDataContainer {
+  margin-top: 1rem;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.groupName,
+.groupColor {
+  font-size: 20px;
+  font-weight: 700;
+}
+.alert {
+  position: absolute;
+  top: 10%;
+  left: 40%; 
+  background: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 1002;
+}
+.userInput {
+  height: 100%;
+  width: 70%;
+  border: 1px solid #cccccc;
+  border-radius: 22px;
+  font-size: 18px;
+  outline: none;
+  letter-spacing: 1px;
+  padding-left: 1.5rem;
+}
+.colorDataContainer {
+  margin-top: 1rem;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.colorCont {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.createBtnContainer {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.closeModal {
+  margin-top: 1.5rem;
+  width: 30%;
+  height: 80%;
+  background: #001f8b;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 11px;
+}
+@media only screen and (max-width: 768px) {
+  .modalContent {
+    width: 300px;
+    height: 200px;
+  }
+  .modalContent h2 {
+    font-weight: 500;
+  }
+
+  .groupName,
+  .groupColor {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .userInput {
+    height: 90%;
+    width: 100%;
+
+    border-radius: 22px;
+    font-size: 15px;
+    outline: none;
+  }
+  .colorCont {
+    height: 100%;
+    width: 100%;
+  }
+  .alert {
+    
+    top: 10%;
+    left: 5%; 
+   
+  }
+  .circle {
+    width: 25px;
+    height: 25px;
+  }
+}
