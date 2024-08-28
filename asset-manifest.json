@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/react-pocket-notes-app/static/css/main.f855e6bc.css",
-    "main.js": "/react-pocket-notes-app/static/js/main.e3c0dcbc.js",
+    "main.css": "/react-pocket-notes-app/static/css/main.be9ce1cd.css",
+    "main.js": "/react-pocket-notes-app/static/js/main.2ea390fa.js",
+    "static/media/defaultIMG.png": "/react-pocket-notes-app/static/media/defaultIMG.981e2e07f14cd4175925.png",
     "index.html": "/react-pocket-notes-app/index.html",
-    "main.f855e6bc.css.map": "/react-pocket-notes-app/static/css/main.f855e6bc.css.map",
-    "main.e3c0dcbc.js.map": "/react-pocket-notes-app/static/js/main.e3c0dcbc.js.map"
+    "main.be9ce1cd.css.map": "/react-pocket-notes-app/static/css/main.be9ce1cd.css.map",
+    "main.2ea390fa.js.map": "/react-pocket-notes-app/static/js/main.2ea390fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.e3c0dcbc.js"
+    "static/css/main.be9ce1cd.css",
+    "static/js/main.2ea390fa.js"
   ]
 }
